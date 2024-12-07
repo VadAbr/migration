@@ -1,0 +1,187 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow: hidden;
+
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  background: #fff;
+}
+
+body,
+#root,
+#root > div {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Дефолтные стили для размера xs иконки в кнопке */
+.Button > .icons--Icon_size_xs {
+  --icon-size: 1.5rem;
+}
+
+.SelectDropdown,
+.Modal,
+.DatePickerDropdown {
+  /* z-index изменен чтобы select из @consta/ui не пересекался с фильтрами из antd таблицы */
+  z-index: 1;
+}
+
+/* Глобальные стили */
+.loaderFullContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.iconBg-xs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1.6rem;
+  height: 1.6rem;
+
+  border-radius: 50%;
+}
+
+.m-t-xs {
+  margin-top: var(--space-xs);
+}
+
+.m-t-m {
+  margin-top: var(--space-m);
+}
+
+.m-l-m {
+  margin-left: var(--space-m);
+}
+
+.m-l-2xl {
+  margin-left: var(--space-2xl);
+}
+
+.m-r-2xl {
+  margin-right: var(--space-2xl);
+}
+
+.m-r-m {
+  margin-right: var(--space-m);
+}
+
+.m-r-xs {
+  margin-right: var(--space-xs);
+}
+
+.m-r-2xs {
+  margin-right: var(--space-2xs);
+}
+
+.m-r-s {
+  margin-right: var(--space-s);
+}
+
+.m-b-3xs {
+  margin-bottom: var(--space-3xs);
+}
+
+.m-b-2xs {
+  margin-bottom: var(--space-2xs);
+}
+
+.m-b-xs {
+  margin-bottom: var(--space-xs);
+}
+
+.m-b-m {
+  margin-bottom: var(--space-m);
+}
+
+.m-b-s {
+  margin-bottom: var(--space-s);
+}
+
+.m-t-s {
+  margin-top: var(--space-s);
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.Steps-List {
+  padding-bottom: var(--space-3xs);
+}
+
+.word-break {
+  word-break: break-all;
+}
+
+.cellRight {
+  justify-content: end;
+}
+
+:root {
+  /* подключенные переменные из @consta - https://consta.design/libs/uikit/components-theme-stable/dev */
+  --space-3xs: 0.2rem;
+  --space-2xs: 0.4rem;
+  --space-xs: 0.8rem;
+  --space-2s: 1.4rem;
+  --space-m: 1.6rem;
+  --space-2m: 1.8rem;
+  --space-2l: 2.2rem;
+  --space-xl: 2.4rem;
+  --color-bg-border: #00203342;
+  --color-bg-alert: #eb5757;
+  --color-bg-link: #0078d2;
+  --color-bg-normal: #56b9f2;
+  --color-bg-default: #fff;
+  --color-typo-alert: #eb3333;
+  --color-typo-success: #09b37b;
+  --color-typo-system: #97b2c4;
+  --border-color: #dee4e8;
+  --bg-color: #ecf1f4;
+  --color-control-typo-ghost: #00426912;
+  --toolbar-height-s: 4.5rem;
+  --toolbar-height-l: 6rem;
+  --toolbar-height-xl: 6.4rem;
+}
