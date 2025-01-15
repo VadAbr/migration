@@ -1,0 +1,20 @@
+.container {
+    border-bottom: 0.1rem solid var(--color-bg-border);
+}
+
+.toolbar {
+    padding: 0;
+    width: 96rem;
+    margin: 0 auto;
+    border-bottom: none;
+    height: 4rem;
+}
+
+.banner {
+    border-bottom: 0.1rem solid var(--color-bg-border);
+}
+
+.banner > *:first-child {
+    text-align: center;
+    padding: 2rem 0;
+}

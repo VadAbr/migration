@@ -1,0 +1,29 @@
+.container {
+    overflow: auto hidden;
+    display: flex;
+    align-items: center;
+
+    height: 6rem;
+    padding: 0 2rem;
+
+    border-bottom: 0.1rem solid var(--color-bg-border);
+}
+
+.item {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    height: 100%;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.right {
+    justify-content: flex-end;
+}

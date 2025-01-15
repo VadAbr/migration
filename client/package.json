@@ -11,14 +11,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@consta/header": "^3.0.0",
     "@consta/icons": "^1.1.0",
     "@consta/uikit": "^5.15.0",
     "@reduxjs/toolkit": "^2.4.0",
     "axios": "^1.7.9",
     "classnames": "^2.5.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
+    "primereact": "^10.8.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-quiz-component": "^0.9.1",
     "react-redux": "^9.1.2",
     "react-router": "^7.0.2",
     "uuid": "^11.0.3"
