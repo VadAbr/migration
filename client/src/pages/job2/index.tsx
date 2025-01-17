@@ -1,6 +1,8 @@
-import { PageTitle } from '@shared/ui'
-import styles from './styles.module.css'
 import { Table } from '@consta/uikit/Table'
+
+import { PageTitle } from '@shared/ui'
+
+import styles from './styles.module.css'
 
 const columns1 = [
   {

@@ -1,9 +1,11 @@
-import { Toolbar } from '@shared/ui'
-import { Text } from '@consta/uikit/Text'
+import { useNavigate } from 'react-router'
 import { Menu, MenuDefaultItem } from '@consta/header/Menu'
-import styles from './styles.module.css'
+import { Text } from '@consta/uikit/Text'
+
 import { PATHS } from '@shared/constants'
-import {useNavigate} from "react-router";
+import { Toolbar } from '@shared/ui'
+
+import styles from './styles.module.css'
 
 const MENU_ITEMS: MenuDefaultItem[] = [
   { label: 'Главная', href: PATHS.main },
@@ -11,7 +13,10 @@ const MENU_ITEMS: MenuDefaultItem[] = [
     label: 'Информация о России',
     subMenu: [
       { label: 'Важные факты и события Российской Федерации', href: PATHS.aboutRussia1 },
-      { label: 'Столица Российской Федерации и названия ее крупнейших городов', href: PATHS.aboutRussia2 },
+      {
+        label: 'Столица Российской Федерации и названия ее крупнейших городов',
+        href: PATHS.aboutRussia2,
+      },
       { label: 'Общие правила общения и поведения в России', href: PATHS.aboutRussia3 },
       { label: 'Культура и традиции Ульяновской области', href: PATHS.aboutRussia4 },
       { label: 'Тестирование 1', href: PATHS.aboutRussia5 },
@@ -74,9 +79,9 @@ const MENU_ITEMS: MenuDefaultItem[] = [
 export const Header = () => {
   const navigate = useNavigate()
 
-  const onClick = (item, {e}) => {
+  const onClick = (item, { e }) => {
     e.preventDefault()
-    if(item.href) {
+    if (item.href) {
       navigate(item.href)
     }
   }

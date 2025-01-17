@@ -1,4 +1,4 @@
-import { PageTitle, PageText, Image } from '@shared/ui'
+import { Image, PageText, PageTitle } from '@shared/ui'
 
 import * as images from './constants.ts'
 
@@ -9,6 +9,7 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Москва — столица и крупнейший город России.</PageText>
+
         <PageText>
           Сюда ведут многие пути и человеческие судьбы, с этим городом связано множество роковых и
           знаменательных событий истории, людских радостей и надежд, несчастий и разочарований и,

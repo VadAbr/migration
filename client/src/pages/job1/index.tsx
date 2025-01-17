@@ -1,6 +1,8 @@
-import { PageTitle } from '@shared/ui'
-import styles from './styles.module.css'
 import { Table } from '@consta/uikit/Table'
+
+import { Image, PageTitle } from '@shared/ui'
+
+import styles from './styles.module.css'
 
 const columns = [
   {
@@ -69,6 +71,8 @@ export const Job1Page = () => {
           <strong>HeadHunter</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/fvHW68p/image.jpg'} />
+
       <p>
         Один из популярнейших сайтов, на котором размещён почти 1 миллион вакансий. Причём есть
         варианты и для высококвалифицированных специалистов, и для людей без опыта или студентов. На
@@ -83,6 +87,8 @@ export const Job1Page = () => {
           <strong>SuperJob</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/jRvhnRk/superjob.jpg'} />
+
       <p>
         По заверениям создателей сайта, с ними сотрудничают 2,2 миллиона работодателей. Также здесь
         можно найти много советов для кандидатов, как эффективнее искать работу, откликаться на
@@ -95,6 +101,8 @@ export const Job1Page = () => {
           <strong>&raquo;</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/P4xZ5Cm/rabora-ru.jpg'} />
+
       <p>
         На сайте представлены вакансии 760 тысяч работодателей. Причём они ориентированы на любой
         сегмент поиска.
@@ -109,6 +117,8 @@ export const Job1Page = () => {
         </li>
       </ol>
       <p>&nbsp;</p>
+      <Image src={'https://i.ibb.co/TTc9Sv2/rabora-In-Russia.jpg'} />
+
       <p>
         Это сайт Роструда, через который можно подать заявку&nbsp;
         <a href="https://lifehacker.ru/kak-vstat-na-birzhu-truda/">
@@ -130,6 +140,8 @@ export const Job1Page = () => {
           <strong>&raquo;</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/Jnj8qQ7/avito.jpg'} />
+
       <p>
         На сайте размещено более 2,4 миллиона вакансий. Особенно много здесь вариантов для
         представителей рабочих профессий и мест, которые не требуют квалификации.
@@ -143,6 +155,8 @@ export const Job1Page = () => {
           <strong>&raquo;</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/rxFfgWg/habr.jpg'} />
+
       <p>
         Сервис, ориентированный на поиск работы в IT-сфере. Среди прочего стоит отметить, что на
         сайте можно посмотреть среднюю зарплату по вашей специальности и определиться с запросами.
@@ -152,15 +166,20 @@ export const Job1Page = () => {
           <strong> &laquo;Город работ&raquo;</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/0Kd9zHm/gorod-rabot.jpg'} />
+
       <p>
         Это агрегатор, который собирает вакансии с других сайтов. Может быть удобен для тех, кто не
         хочет мониторить разные площадки самостоятельно.
       </p>
+
       <ol start="8">
         <li>
           <strong> Remote-job.ru</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/z77SkHw/remout-job.jpg'} />
+
       <p>
         Сайт специализируется на вакансиях&nbsp;
         <a href="https://lifehacker.ru/udalyonnaya-rabota-vakansii/">
@@ -175,6 +194,8 @@ export const Job1Page = () => {
           <strong> &laquo;Вакансии для хороших людей&raquo;</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/3d97B0c/good-rabota.jpg'} />
+
       <p>
         Сайт ориентирован на людей творческих специальностей: медиа, креатив, дизайн, PR и так
         далее.
@@ -186,6 +207,8 @@ export const Job1Page = () => {
           <strong>&raquo;</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/y0jCP1x/salary.jpg'} />
+
       <p>Ещё один сайт с большим количеством вакансий в разных сферах.</p>
       <ol start="11">
         <li>
@@ -196,13 +219,15 @@ export const Job1Page = () => {
           <strong>&raquo;</strong>
         </li>
       </ol>
+      <Image src={'https://i.ibb.co/Kq1L4P4/rabota-For-You.jpg'} />
+
       <p>
         Это сайт газеты &laquo;Работа для вас&raquo;. Однако листать страницы в интернете удобнее,
         чем бумажное издание.
       </p>
       <p>&nbsp;</p>
 
-      <Table columns={columns} rows={rows} zebraStriped="odd" borderBetweenRows={true}  />
+      <Table columns={columns} rows={rows} zebraStriped="odd" borderBetweenRows={true} />
     </>
   )
 }

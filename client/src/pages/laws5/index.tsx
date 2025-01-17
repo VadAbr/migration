@@ -1,5 +1,7 @@
-import { PageTitle } from '@shared/ui'
 import Quiz from 'react-quiz-component'
+
+import { PageTitle } from '@shared/ui'
+
 import styles from './styles.module.css'
 
 const appLocale = {
@@ -422,13 +424,13 @@ export const quiz = {
 }
 
 export const Laws5Page = () => {
-    return (
-        <>
-            <PageTitle text={'Тестирование'}/>
+  return (
+    <>
+      <PageTitle text={'Тестирование'} />
 
-            <div className={styles.test}>
-                <Quiz quiz={quiz} disableSynopsis/>
-            </div>
-        </>
-    )
+      <div className={styles.test}>
+        <Quiz quiz={quiz} disableSynopsis />
+      </div>
+    </>
+  )
 }

@@ -1,5 +1,5 @@
-import { Text } from '@consta/uikit/Text'
 import { CSSProperties } from 'react'
+import { Text } from '@consta/uikit/Text'
 
 import styles from './styles.module.css'
 
@@ -8,7 +8,7 @@ const textStyle: CSSProperties = { textAlign: 'justify', textIndent: '2rem' }
 export const Page = () => {
   return (
     <div className={styles.content}>
-      <Text weight={'semibold'} align={'center'} style={{ marginBottom:'1.6rem'}}>
+      <Text weight={'semibold'} align={'center'} style={{ marginBottom: '1.6rem' }}>
         МИССИЯ: «Наша миссия заключается в создании такого пространства, где мигранты могут успешно
         интегрироваться в новое общество, сохраняя своё культурное богатство и индивидуальность. Мы
         стремимся обеспечить доступ к необходимым ресурсам, знаниям и возможностям для их

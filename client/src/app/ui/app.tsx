@@ -11,9 +11,9 @@ import '../styles/global.css'
 export const App = () => {
   return (
     <ReduxProvider store={appStore}>
-        <Theme preset={presetGpnDefault}>
-          <RouterProvider router={router} />
-        </Theme>
+      <Theme preset={presetGpnDefault}>
+        <RouterProvider router={router} />
+      </Theme>
     </ReduxProvider>
   )
 }

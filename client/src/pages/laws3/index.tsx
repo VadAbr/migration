@@ -1,4 +1,5 @@
 import { PageTitle } from '@shared/ui'
+
 import styles from './styles.module.css'
 
 export const Laws3Page = () => {

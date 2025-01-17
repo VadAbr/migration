@@ -1,11 +1,15 @@
-import { PageTitle } from '@shared/ui'
 import { Text } from '@consta/uikit/Text'
+
+import { Image, PageTitle } from '@shared/ui'
+
 import styles from './styles.module.css'
 
 export const Laws1Page = () => {
   return (
     <>
       <PageTitle text={'Правовые основы миграционного законодательства Российской Федерации'} />
+
+      <Image src={'https://i.ibb.co/r7W1gG5/image.png'} />
 
       <ul className={styles.list}>
         <li>

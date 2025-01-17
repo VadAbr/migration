@@ -1,4 +1,4 @@
-import { PageTitle, PageText, Image } from '@shared/ui'
+import { Image, PageText, PageTitle } from '@shared/ui'
 
 import * as images from './constants.ts'
 export const AboutRussia1Page = () => {
@@ -20,7 +20,7 @@ export const AboutRussia1Page = () => {
           Россия занимает почти 17,1 миллиона квадратных километров, что делает её крупнейшим
           государством на планете. Её территория больше, чем площадь Плутона.
         </PageText>
-        <Image src={images.img1} />
+        <Image src={'https://i.ibb.co/f9mYDPy/image.jpg'} />
       </section>
 
       <section>
@@ -31,13 +31,13 @@ export const AboutRussia1Page = () => {
           Россия простирается на два континента — Европу и Азию, разделённые Уральскими горами,
           которые тянутся с севера на юг.
         </PageText>
-        <Image src={images.img2} />
+        <Image src={'https://i.ibb.co/h98yXLG/image.png'} />
       </section>
 
       <section>
         <PageText weight={'semibold'}>Наибольшее количество соседей</PageText>
         <PageText>Россия граничит с 16 странами — это больше, чем у любой другой страны.</PageText>
-        <Image src={images.img1} />
+        <Image src={'https://i.ibb.co/f9mYDPy/image.jpg'} />
       </section>
 
       <section>
@@ -46,7 +46,7 @@ export const AboutRussia1Page = () => {
           На территории России можно встретить все климатические зоны, кроме тропической. Здесь
           встречаются от арктических морозов до субтропической жары.
         </PageText>
-        <Image src={images.img3} />
+        <Image src={'https://i.ibb.co/Z1JmKhR/image.jpg'} />
       </section>
 
       <section>
@@ -56,7 +56,7 @@ export const AboutRussia1Page = () => {
           язык, однако, является основным и наиболее распространенным. Москва — самая северная
           столица в мире с населением более 10 миллионов человек.
         </PageText>
-        <Image src={images.img4} />
+        <Image src={'https://i.ibb.co/ZSPTkSm/image.webp'} />
       </section>
 
       <section>
@@ -65,7 +65,7 @@ export const AboutRussia1Page = () => {
           В северных городах, таких как Санкт-Петербург, летом солнце почти не заходит за горизонт,
           создавая явление, известное как белые ночи.
         </PageText>
-        <Image src={images.img5} />
+        <Image src={'https://i.ibb.co/fxX6RJZ/image.jpg'} />
       </section>
 
       <section>
@@ -74,7 +74,7 @@ export const AboutRussia1Page = () => {
           Байкал — самое глубокое озеро на планете и крупнейшее по объему запасов пресной воды. В
           нем сосредоточено около 20% всех мировых запасов пресной воды.
         </PageText>
-        <Image src={images.img6} />
+        <Image src={'https://i.ibb.co/vwqxJzD/image.jpg'} />
       </section>
 
       <section>
@@ -83,7 +83,7 @@ export const AboutRussia1Page = () => {
           День России отмечается 12 июня и является официальным праздником с 1992 года, когда был
           подписан указ о суверенитете.
         </PageText>
-        <Image src={images.img7} />
+        <Image src={'https://i.ibb.co/F8strfy/image.png'} />
       </section>
 
       <section>
@@ -92,7 +92,7 @@ export const AboutRussia1Page = () => {
           Россия занимает почетное место в списке Всемирного наследия ЮНЕСКО с более чем 25
           культурными и природными объектами.
         </PageText>
-        <Image src={images.img8} />
+        <Image src={'https://i.ibb.co/x8QPd1P/image.jpg'} />
       </section>
 
       <section>
@@ -101,7 +101,7 @@ export const AboutRussia1Page = () => {
           Санкт-Петербургский Эрмитаж — один из самых больших музеев мира. Чтобы осмотреть все
           экспонаты, потребуется несколько лет.
         </PageText>
-        <Image src={images.img9} />
+        <Image src={'https://i.ibb.co/NCKZWpv/image.jpg'} />
       </section>
 
       <section>
@@ -110,7 +110,7 @@ export const AboutRussia1Page = () => {
           Транссиб — самая длинная железнодорожная линия в мире, соединяющая Москву и Владивосток.
           Длина маршрута превышает 9 тысяч километров.
         </PageText>
-        <Image src={images.img10} />
+        <Image src={'https://i.ibb.co/tZVGx01/image.webp'} />
       </section>
 
       <section>
@@ -119,7 +119,7 @@ export const AboutRussia1Page = () => {
           Россия омывается водами 13 морей, которые принадлежат бассейнам Тихого, Атлантического и
           Северного Ледовитого океанов.
         </PageText>
-        <Image src={images.img11} />
+        <Image src={'https://i.ibb.co/qB9QTXQ/image.webp'} />
       </section>
 
       <section>
@@ -131,7 +131,7 @@ export const AboutRussia1Page = () => {
           начали в 1967 году, а первый энергоблок ввели в эксплуатацию в 1973-м. Всего АЭС имеет
           четыре эксплуатируемых реактора.
         </PageText>
-        <Image src={images.img12} />
+        <Image src={'https://i.ibb.co/tsN0Yc0/image.jpg'} />
       </section>
 
       <section>
@@ -140,7 +140,7 @@ export const AboutRussia1Page = () => {
           Русская баня — традиция, восходящая к древним временам, и отличается от финской сауны:
           воздух здесь насыщен паром, а не сухой.
         </PageText>
-        <Image src={images.img13} />
+        <Image src={'https://i.ibb.co/GsrK9YV/image.webp'} />
       </section>
 
       <section>
@@ -149,7 +149,7 @@ export const AboutRussia1Page = () => {
           Территория России охватывает 11 часовых поясов, что делает страну рекордсменом в этом
           показателе.
         </PageText>
-        <Image src={images.img14} />
+        <Image src={'https://i.ibb.co/7zwvC0L/image.png'} />
       </section>
 
       <section>
@@ -158,7 +158,7 @@ export const AboutRussia1Page = () => {
           В России были изобретены радио Александром Поповым, периодическая таблица Дмитрием
           Менделеевым и телевидение Владимиром Зворыкиным.
         </PageText>
-        <Image src={images.img15} />
+        <Image src={'https://i.ibb.co/vZYwPW0/image.jpg'} />
       </section>
 
       <section>
@@ -167,7 +167,7 @@ export const AboutRussia1Page = () => {
           Советский Союз, предшественник современной России, стал первой страной, отправившей
           человека в космос. Юрий Гагарин сделал этот исторический шаг в 1961 году.
         </PageText>
-        <Image src={images.img16} />
+        <Image src={'https://i.ibb.co/BBx30rk/image.jpg'} />
       </section>
 
       <section>
@@ -176,7 +176,7 @@ export const AboutRussia1Page = () => {
           В России расположена одна из самых глубоких пещер мира — пещера Крубера, глубина которой
           превышает 2000 метров.
         </PageText>
-        <Image src={images.img17} />
+        <Image src={'https://i.ibb.co/0sj329y/image.jpg'} />
       </section>
 
       <section>
@@ -195,7 +195,7 @@ export const AboutRussia1Page = () => {
           Оймякон в Якутии известен как самое холодное постоянно населенное место на Земле. Здесь
           температура может опускаться до -70°C.
         </PageText>
-        <Image src={images.img18} />
+        <Image src={'https://i.ibb.co/dkscVPn/image.jpg'} />
       </section>
 
       <section>
@@ -204,7 +204,7 @@ export const AboutRussia1Page = () => {
           Россия занимает особое место в мире по численности популяций волков, особенно в сибирских
           и дальневосточных регионах.
         </PageText>
-        <Image src={images.img19} />
+        <Image src={'https://i.ibb.co/jhVnwwh/image.jpg'} />
       </section>
 
       <section>
@@ -213,7 +213,7 @@ export const AboutRussia1Page = () => {
           Россия занимает одно из лидирующих мест по запасам природного газа и нефти. Эти ресурсы
           составляют значительную часть российской
         </PageText>
-        <Image src={images.img20} />
+        <Image src={'https://i.ibb.co/jT5yJp7/image.jpg'} />
       </section>
 
       <section>
@@ -230,7 +230,7 @@ export const AboutRussia1Page = () => {
           Россия известна своими музыкальными традициями — от классической музыки Чайковского и
           Рахманинова до народных балалаек и современных хоров.
         </PageText>
-        <Image src={images.img21} />
+        <Image src={'https://i.ibb.co/2cyQpPr/image.jpg'} />
       </section>
 
       <section>
@@ -239,7 +239,7 @@ export const AboutRussia1Page = () => {
           Сибирская тайга — крупнейший лесной массив на Земле, богатый разнообразными растениями и
           дикими животными.
         </PageText>
-        <Image src={images.img22} />
+        <Image src={'https://i.ibb.co/PmfWGGb/image.jpg'} />
       </section>
 
       <section>
@@ -248,7 +248,7 @@ export const AboutRussia1Page = () => {
           Россия подарила миру выдающихся спортсменов и знаменитые спортивные школы, которые
           воспитали олимпийских чемпионов по фигурному катанию, гимнастике и хоккею.
         </PageText>
-        <Image src={images.img23} />
+        <Image src={'https://i.ibb.co/rZZTJ3t/image.jpg'} />
       </section>
 
       <section>
@@ -257,7 +257,7 @@ export const AboutRussia1Page = () => {
           Русская кухня богата простыми и сытными блюдами. Борщ, пельмени, окрошка и блины известны
           по всему миру.
         </PageText>
-        <Image src={images.img24} />
+        <Image src={'https://i.ibb.co/KrYK85M/image.jpg'} />
       </section>
 
       <section>
@@ -266,7 +266,7 @@ export const AboutRussia1Page = () => {
           В России находятся уникальные архитектурные памятники, такие как собор Василия Блаженного,
           Казанский собор и Храм Христа Спасителя.
         </PageText>
-        <Image src={images.img25} />
+        <Image src={'https://i.ibb.co/nscTFsv/image.jpg'} />
       </section>
 
       <section>
@@ -275,7 +275,7 @@ export const AboutRussia1Page = () => {
           Россияне любят проводить лето на дачах, что является уникальной традицией, сохранившейся
           со времен Советского Союза.
         </PageText>
-        <Image src={images.img26} />
+        <Image src={'https://i.ibb.co/vh7ZgnV/image.webp'} />
       </section>
 
       <section>
@@ -284,7 +284,7 @@ export const AboutRussia1Page = () => {
           Россия — одна из стран с наибольшим количеством граждан с высшим образованием, и это
           ценность высоко ценится в обществе
         </PageText>
-        <Image src={images.img27} />
+        <Image src={'https://i.ibb.co/tPdNDFK/image.jpg'} />
       </section>
 
       <section>
@@ -293,7 +293,7 @@ export const AboutRussia1Page = () => {
           Чай в России — не просто напиток, а настоящая традиция. Он подается горячим с самоваром,
           вареньем и баранками.
         </PageText>
-        <Image src={images.img28} />
+        <Image src={'https://i.ibb.co/P5dZCwk/image.jpg'} />
       </section>
 
       <section>
@@ -302,7 +302,7 @@ export const AboutRussia1Page = () => {
           Санкт-Петербург часто называют городом трех революций, так как именно здесь начались
           основные события, изменившие ход истории.
         </PageText>
-        <Image src={images.img29} />
+        <Image src={'https://i.ibb.co/GkJZR4y/image.jpg'} />
       </section>
 
       <section>
@@ -311,7 +311,7 @@ export const AboutRussia1Page = () => {
           Русские театры, такие как Большой театр в Москве и Мариинский театр в Санкт-Петербурге,
           считаются одними из лучших в мире.
         </PageText>
-        <Image src={images.img30} />
+        <Image src={'https://i.ibb.co/NtbJwLM/image.jpg'} />
       </section>
 
       <section>
@@ -321,7 +321,7 @@ export const AboutRussia1Page = () => {
           называется Старый Новый год. Также важно уделить внимание истории России. Представим самые
           яркие события прошедших лет.
         </PageText>
-        <Image src={images.img31} />
+        <Image src={'https://i.ibb.co/HBDWQ4M/image.jpg'} />
       </section>
 
       <section>
@@ -339,7 +339,7 @@ export const AboutRussia1Page = () => {
           согласие Владимира, император прислал Анну в Корсунь. Там Владимир принял христианство и
           сочетался браком с византийской принцессой.
         </PageText>
-        <Image src={images.img32} />
+        <Image src={'https://i.ibb.co/2nmj6rk/image.jpg'} />
       </section>
 
       <section>
@@ -373,7 +373,7 @@ export const AboutRussia1Page = () => {
           войны и позволило сплотиться разрозненным землям против единого врага. Из чего следует,
           что нападение на Русь — один из факторов формирования государственности.
         </PageText>
-        <Image src={images.img33} />
+        <Image src={'https://i.ibb.co/QJQz7p8/image.jpg'} />
       </section>
 
       <section>
@@ -391,7 +391,7 @@ export const AboutRussia1Page = () => {
           Иоаннович. Самые известные представители императорской династии Романовых — Петр I,
           Екатерина II, Александр I, Николай I, Александр II, Николай II.
         </PageText>
-        <Image src={images.img34} />
+        <Image src={'https://i.ibb.co/rFc5tLV/image.jpg'} />
       </section>
 
       <section>
@@ -408,7 +408,7 @@ export const AboutRussia1Page = () => {
           прекращение рабства, была принята американским конгрессом во время Гражданской войны 31
           января 1865 года.
         </PageText>
-        <Image src={images.img35} />
+        <Image src={'https://i.ibb.co/D8gJtTp/image.jpg'} />
       </section>
 
       <section>

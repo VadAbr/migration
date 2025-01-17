@@ -1,24 +1,25 @@
 import { RouteObject } from 'react-router'
 
-import { PATHS } from '@shared/constants'
-import { MainPage } from '@pages/main'
-import { Layout } from './layout.tsx'
 import { AboutRussia1Page } from '@pages/aboutRussia1'
 import { AboutRussia2Page } from '@pages/aboutRussia2'
 import { AboutRussia3Page } from '@pages/aboutRussia3'
 import { AboutRussia4Page } from '@pages/aboutRussia4'
 import { AboutRussia5Page } from '@pages/aboutRussia5'
 import { AboutRussia6Page } from '@pages/aboutRussia6'
-import { NotFoundPage } from '@pages/notFound'
+import { House1Page } from '@pages/house1'
+import { House2Page } from '@pages/house2'
+import { Job1Page } from '@pages/job1'
+import { Job2Page } from '@pages/job2'
 import { Laws1Page } from '@pages/laws1'
 import { Laws2Page } from '@pages/laws2'
 import { Laws3Page } from '@pages/laws3'
 import { Laws4Page } from '@pages/laws4'
 import { Laws5Page } from '@pages/laws5'
-import { Job1Page } from '@pages/job1'
-import { Job2Page } from '@pages/job2'
-import {House1Page} from "@pages/house1";
-import {House2Page} from "@pages/house2";
+import { MainPage } from '@pages/main'
+import { NotFoundPage } from '@pages/notFound'
+import { PATHS } from '@shared/constants'
+
+import { Layout } from './layout.tsx'
 
 export const routes: RouteObject[] = [
   {

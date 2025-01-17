@@ -1,4 +1,4 @@
-import { PageTitle, PageText } from '@shared/ui'
+import { PageText, PageTitle } from '@shared/ui'
 
 export const AboutRussia4Page = () => {
   return (

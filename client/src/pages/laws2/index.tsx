@@ -1,4 +1,5 @@
-import { PageTitle } from '@shared/ui'
+import { Image, PageTitle } from '@shared/ui'
+
 import styles from './styles.module.css'
 
 export const Laws2Page = () => {
@@ -727,6 +728,8 @@ export const Laws2Page = () => {
         </p>
         <p>&nbsp;</p>
       </section>
+
+      <Image src={'https://i.ibb.co/zsJRvfD/image.png'} />
     </>
   )
 }

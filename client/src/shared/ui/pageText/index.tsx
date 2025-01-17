@@ -6,5 +6,9 @@ type TPageTitle = {
 } & TextProps
 
 export const PageText: FC<TPageTitle> = ({ children, ...props }) => {
-  return <Text {...props} size={'m'} style={{textAlign:'justify', textIndent: '3rem'}}>{children}</Text>
+  return (
+    <Text {...props} size={'m'} style={{ textAlign: 'justify', textIndent: '3rem' }}>
+      {children}
+    </Text>
+  )
 }

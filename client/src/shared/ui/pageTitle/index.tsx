@@ -6,5 +6,9 @@ type TPageTitle = {
 }
 
 export const PageTitle: FC<TPageTitle> = ({ text }) => {
-  return <Text size={'2xl'} align="center">{text}</Text>
+  return (
+    <Text size={'2xl'} align="center">
+      {text}
+    </Text>
+  )
 }

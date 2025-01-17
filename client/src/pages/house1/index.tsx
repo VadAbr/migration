@@ -1,4 +1,5 @@
-import { PageTitle } from '@shared/ui'
+import { Image, PageTitle } from '@shared/ui'
+
 import styles from './styles.module.css'
 
 export const House1Page = () => {
@@ -9,6 +10,7 @@ export const House1Page = () => {
 
         <p>Снять, купить, продать недвижимость можно с помощью следующих сайтов:</p>
         <p>1. Яндекс.Недвижимость</p>
+        <Image src={'https://i.ibb.co/jGXnD89/yandex-dom.png'} />
         <p>
           <strong>Яндекс Недвижимость</strong>&nbsp;&mdash; сервис объявлений об аренде и продаже
           недвижимости, запущенный российской компанией &laquo;
@@ -29,6 +31,8 @@ export const House1Page = () => {
           &raquo;&nbsp;.
         </p>
         <p>2. Циан</p>
+        <Image src={'https://i.ibb.co/d7YvGQ2/cian.jpg'} />
+
         <p>
           <strong>&laquo;Циан&raquo;</strong>&nbsp;&mdash; одна из&nbsp;ведущих онлайн-платформ
           объявлений о&nbsp;продаже и&nbsp;аренде недвижимости в&nbsp;России.&nbsp;Занимает
@@ -42,6 +46,8 @@ export const House1Page = () => {
         </p>
         <p>&nbsp;</p>
         <p>3.Суточно.ру</p>
+        <Image src={'https://i.ibb.co/1KjjG50/sutochno.png'} />
+
         <p>
           <strong>Суточно.ру</strong>
           <strong>&nbsp;</strong>&mdash; российский сервис онлайн-бронирования жилья для поездок.
@@ -54,6 +60,8 @@ export const House1Page = () => {
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p>4.Авито</p>
+        <Image src={'https://i.ibb.co/YR7F04y/avito-dom.png'} />
+
         <p>
           Российский интернет-сервис для размещения объявлений о товарах, недвижимости, вакансиях и
           резюме на рынке труда, а также услугах.
