@@ -12,7 +12,7 @@ export const App = () => {
   return (
     <ReduxProvider store={appStore}>
       <Theme preset={presetGpnDefault}>
-        <RouterProvider router={router} />
+        <RouterProvider router={router}/>
       </Theme>
     </ReduxProvider>
   )
