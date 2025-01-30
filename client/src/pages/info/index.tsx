@@ -2,7 +2,7 @@ export const InfoPage = () => {
   return (
     <>
       <iframe
-        src={'public/info.pdf'}
+        src={'.vercel/output/static/info.pdf'}
         style={{
           width: '100vw',
           height: 'calc(100vh - 40px)',
