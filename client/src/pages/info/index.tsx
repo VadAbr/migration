@@ -2,7 +2,7 @@ export const InfoPage = () => {
   return (
     <>
       <iframe
-        src={'assets/info.pdf'}
+        src={'public/info.pdf'}
         style={{
           width: '100vw',
           height: 'calc(100vh - 40px)',
