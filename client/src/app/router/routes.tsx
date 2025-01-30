@@ -6,8 +6,12 @@ import { AboutRussia3Page } from '@pages/aboutRussia3'
 import { AboutRussia4Page } from '@pages/aboutRussia4'
 import { AboutRussia5Page } from '@pages/aboutRussia5'
 import { AboutRussia6Page } from '@pages/aboutRussia6'
+import { ArticlesPage } from '@pages/articles'
+import { ContactsPage } from '@pages/contacts'
+import { HealthPage } from '@pages/health'
 import { House1Page } from '@pages/house1'
 import { House2Page } from '@pages/house2'
+import { InfoPage } from '@pages/info'
 import { Job1Page } from '@pages/job1'
 import { Job2Page } from '@pages/job2'
 import { Laws1Page } from '@pages/laws1'
@@ -90,6 +94,10 @@ export const routes: RouteObject[] = [
         element: <House2Page />,
         path: PATHS.house2,
       },
+      { element: <HealthPage />, path: PATHS.health },
+      { element: <ArticlesPage />, path: PATHS.articles },
+      { element: <ContactsPage />, path: PATHS.contacts },
+      { element: <InfoPage />, path: PATHS.info },
     ],
   },
   {

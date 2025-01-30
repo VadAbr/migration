@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router'
+import { Outlet, useLocation } from 'react-router'
 import { cnMixScrollBar } from '@consta/uikit/MixScrollBar'
 import cn from 'classnames'
 

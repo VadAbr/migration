@@ -9,6 +9,7 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Москва — столица и крупнейший город России.</PageText>
+        <Image src={'https://i.msmap.ru/original/331.jpg'} />
 
         <PageText>
           Сюда ведут многие пути и человеческие судьбы, с этим городом связано множество роковых и
@@ -27,6 +28,8 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Санкт-Петербург: 5,6 миллиона человек</PageText>
+        <Image src={'https://i.ibb.co/xCVPG3D/image.jpg'} />
+
         <PageText>
           В вечном споре Москвы и Санкт-Петербурга пальма первенства по количеству жителей остаётся
           за Москвой. В Питере их в 2,5 раза меньше, но любят его не за масштабы, а за камерную
@@ -46,6 +49,8 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Новосибирск: 1,6 миллиона человек</PageText>
+        <Image src={'https://i.ibb.co/kKRpQjq/image.jpg'} />
+
         <PageText>
           Новосибирск — крупный деловой, торговый, образовательный и культурный центр. Его называют
           столицей Сибири. А ещё это столица российской науки: в Академгородке Новосибирска
@@ -59,6 +64,8 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Екатеринбург: 1,5 миллиона человек</PageText>
+        <Image src={'https://i.ibb.co/Y0bDJWW/image.jpg'} />
+
         <PageText>
           В Екатеринбурге множество интересных мест, которые стоит посетить. Например, окунуться в
           1990-е в Ельцин-центре, увидеть шедевры камнерезного дела в центре искусств «Главный
@@ -70,6 +77,8 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Казань: 1,3 миллиона человек</PageText>
+        <Image src={'https://i.ibb.co/K0Y2qFK/image.jpg'} />
+
         <PageText>
           Столица Татарстана — одно из самых популярных в России направлений для внутреннего
           туризма. В 2023 году город посетили 4 миллиона гостей. Сюда приезжают, чтобы погулять по
@@ -83,6 +92,8 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Нижний Новгород: 1,2 миллиона человек</PageText>
+        <Image src={'https://i.ibb.co/sCPC2VC/image.jpg'} />
+
         <PageText>
           Столица закатов, город на стрелке Волги и Оки рад показать гостям древний кремль,
           закрученную восьмёркой Чкаловскую лестницу, старинные особняки на Большой Покровской и
@@ -93,6 +104,8 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Челябинск: 1,189 миллиона человек</PageText>
+        <Image src={'https://i.ibb.co/zRH8c3Z/image.jpg'} />
+
         <PageText>
           Суровый город металлургов сложно назвать туристическим, однако интересного тут немало.
           Стоит погулять по пешеходной Кировке, рассматривая десятки бронзовых скульптур, и увидеть
@@ -104,6 +117,8 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Красноярск: 1,188 миллиона человек</PageText>
+        <Image src={'https://i.ibb.co/jw8Gkk1/image.jpg'} />
+
         <PageText>
           В Красноярск приезжают, чтобы увидеть скалы причудливых форм. В регионе есть даже целое
           движение альпинистов, которые забираются на эти Столбы. Его представителей так и называют
@@ -117,6 +132,8 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Самара: 1,16 миллиона человек</PageText>
+        <Image src={'https://i.ibb.co/vZnnRp7/image.jpg'} />
+
         <PageText>
           В Самаре одна из самых длинных набережных в России — 4,2 километра. Здесь стоит погулять,
           чтобы увидеть скульптурную копию картины «Бурлаки на Волге», которую написал Илья Репин.
@@ -128,6 +145,8 @@ export const AboutRussia2Page = () => {
 
       <section>
         <PageText weight={'semibold'}>Уфа: 1,14 миллиона человек</PageText>
+        <Image src={'https://i.ibb.co/wM4v0m6/image.jpg'} />
+
         <PageText>
           Столица Башкирии готова удивлять — огромным памятником Салавату Юлаеву на берегу реки
           Белой, изящными минаретами мечети Ляля-Тюльпан и лимонной рощей, которая цветёт и

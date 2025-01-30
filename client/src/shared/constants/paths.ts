@@ -19,5 +19,9 @@ export const PATHS = {
   //Жилищные вопросы
   house1: '/house/1',
   house2: '/house/2',
+  articles: '/articles',
+  health: '/health',
+  contacts: '/contacts',
+  info: '/info',
   other: '*',
 }

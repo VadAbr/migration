@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router'
+import { useLocation, useNavigate } from 'react-router'
 import { Menu, MenuDefaultItem } from '@consta/header/Menu'
 import { Text } from '@consta/uikit/Text'
 
@@ -18,7 +18,7 @@ const MENU_ITEMS: MenuDefaultItem[] = [
         href: PATHS.aboutRussia2,
       },
       { label: 'Общие правила общения и поведения в России', href: PATHS.aboutRussia3 },
-      { label: 'Культура и традиции Ульяновской области', href: PATHS.aboutRussia4 },
+      { label: 'Характеристика Ульяновской области', href: PATHS.aboutRussia4 },
       { label: 'Тестирование 1', href: PATHS.aboutRussia5 },
       { label: 'Тестирование 2', href: PATHS.aboutRussia6 },
     ],
@@ -48,38 +48,32 @@ const MENU_ITEMS: MenuDefaultItem[] = [
     subMenu: [
       { label: 'Как найти жилье?', href: PATHS.house1 },
       { label: 'Справочник по районам', href: PATHS.house2 },
-      // { label: 'Советы по аренде и покупке жилья' },
-      // { label: 'Страхование' },
-      // { label: 'Список мед.учреждений' },
     ],
   },
-  // {
-  //   label: 'Форум/Сообщества',
-  //   subMenu: [
-  //     { label: 'Платформа для общения и обмена опытом' },
-  //     { label: 'Вопросы и ответы' },
-  //   ],
-  // },
-  // {
-  //   label: 'Ресурсы и ссылки',
-  //   subMenu: [{ label: 'Полезные контакты' }, { label: 'Ссылки на другие сайты и организации' }],
-  // },
-  // {
-  //   label: 'Часто задаваемые вопросы',
-  // },
-  // {
-  //   label: 'Памятка',
-  // },
-  // {
-  //   label: 'Блог',
-  //   subMenu: [{ label: 'Статьи на актуальные темы' }, { label: 'Истории успеха мигрантов' }],
-  // },
+  {
+    label: 'Здравоохранение',
+    href: PATHS.health,
+  },
+  {
+    label: 'Статьи',
+    href: PATHS.articles,
+  },
+  {
+    label: 'Полезные контакты',
+    href: PATHS.contacts,
+  },
+  {
+    label: 'Памятка для мигрантов',
+    href: PATHS.info,
+  },
 ]
 
 export const Header = () => {
   const navigate = useNavigate()
+  const location = useLocation()
+  const isInfoPage = PATHS.info === location.pathname
 
-  const onClick = (item, { e }) => {
+  const onClick = (item: MenuDefaultItem, { e }: { e: React.MouseEvent }) => {
     e.preventDefault()
     if (item.href) {
       navigate(item.href)
@@ -88,9 +82,11 @@ export const Header = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.banner}>
-        <Text size={'3xl'}>Адаптация 360</Text>
-      </div>
+      {!isInfoPage && (
+        <div className={styles.banner}>
+          <Text size={'3xl'}>Адаптация 360</Text>
+        </div>
+      )}
       <Toolbar
         className={styles.toolbar}
         center={<Menu items={MENU_ITEMS} onItemClick={onClick} />}

@@ -1,0 +1,19 @@
+.link {
+    color: #56b9f2;
+    text-wrap: nowrap;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.item {
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
