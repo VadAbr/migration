@@ -1,4 +1,5 @@
 import { PageTitle } from '@shared/ui'
+import styles from './styles.module.css'
 
 export const HealthPage = () => {
   return (
@@ -7,13 +8,13 @@ export const HealthPage = () => {
       <ul>
         <li>
           1){' '}
-          <a href={'https://www.ffoms.gov.ru/documents/registry/MO/?region=346'}>
+          <a className={styles.a} href={'https://www.ffoms.gov.ru/documents/registry/MO/?region=346'}>
             Федеральный фонд медицинского страхования
           </a>
         </li>
         <li>
           2){' '}
-          <a href={'https://med.ulgov.ru/informasiya/'}>
+          <a className={styles.a} href={'https://med.ulgov.ru/informasiya/'}>
             Министерство здравоохранения Ульяновской области
           </a>
         </li>
